@@ -4,8 +4,8 @@ from accounts.models import CustomUser
 
 
 USER_TYPES =[
-     (0, 'Farmer'),
-     (1, 'Consumer'),
+    (0, 'Farmer'),
+    (1, 'Consumer'),
 ]
 
 class RegisterForm(UserCreationForm):
@@ -19,5 +19,5 @@ class RegisterForm(UserCreationForm):
         
      
     class Meta:
-        model = CustomUser
-        fields = ('username', 'email', 'password1', 'password2', 'phone_number', 'user_type') 
+            model = CustomUser
+            fields = ('username', 'email', 'password1', 'password2', 'phone_number', 'user_type') 

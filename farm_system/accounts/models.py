@@ -8,5 +8,5 @@ class CustomUser(AbstractUser):
         pass
     
   
-    def __str__(self):
-        self.username
+        def __str__(self):
+            self.username
