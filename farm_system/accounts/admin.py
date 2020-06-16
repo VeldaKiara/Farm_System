@@ -6,4 +6,4 @@ from django.contrib.auth.models import User
 
 from accounts.models import CustomUser
 
-admin.sitte.register(CustomUser, UserAdmin)
+admin.site.register(CustomUser, UserAdmin)
