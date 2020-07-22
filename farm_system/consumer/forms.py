@@ -10,5 +10,4 @@ class ConsumerForms(forms.ModelForm):
     class Meta: 
     	model = Consumer
     	fields = ('user_id')
-        pass
-
+        pass 
