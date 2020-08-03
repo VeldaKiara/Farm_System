@@ -36,7 +36,7 @@ def calculatePaymentPrice(request):
             food = product.objects.instance_of(Food)
             totalAmountToPay = food.price
         else:
-            print("Ni kubaya")
+            print("No product selected")
 
     print(totalAmountToPay)
 
