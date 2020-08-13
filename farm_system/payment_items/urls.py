@@ -4,5 +4,5 @@ from payment_items.views import calculatePaymentPrice
 
 app_name = 'Payment_items'
 urlpatterns=[
-    path('/johnnybravo',calculatePaymentPrice,name="johnny bravo")
+    path('johnnybravo',calculatePaymentPrice,name="johnny bravo")
 ]
