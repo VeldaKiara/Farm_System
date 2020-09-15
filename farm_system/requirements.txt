@@ -1,3 +1,4 @@
+django >= 3
 asgiref>=3.2.7
 django-polymorphic
 django-crispy-forms>=1.9.0
