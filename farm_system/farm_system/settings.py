@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'products',
     'polymorphic',
     'payment_items',
+    'home',
     
 ]
 
