@@ -3,4 +3,4 @@ from django.views.generic  import TemplateView
 # Create your views here.
 
 class IndexView(TemplateView):
-    template_name = 'home-01.html'
+    template_name = 'home-02.html'
